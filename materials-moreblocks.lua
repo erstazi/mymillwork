@@ -44,6 +44,15 @@ if minetest.get_modpath("moreblocks") then
 		{cracky = 3, not_in_creative_inventory = mymillwork.nici}
 	)
 
+	-- TAR --------------------------------------------------------------------------------
+
+	--moreblocks:cactus_brick
+	mymillwork.register("moreblocks:tar",
+		"moreblocks_tar",
+		"Tar",
+		"moreblocks_tar.png",
+		{cracky = 2, tar_block = 1, not_in_creative_inventory = mymillwork.nici}
+	)
 
 	-- BRICKS --------------------------------------------------------------------------------
 

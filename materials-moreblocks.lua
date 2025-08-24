@@ -46,7 +46,7 @@ if minetest.get_modpath("moreblocks") then
 
 	-- TAR --------------------------------------------------------------------------------
 
-	--moreblocks:cactus_brick
+	--moreblocks:tar
 	mymillwork.register("moreblocks:tar",
 		"moreblocks_tar",
 		"Tar",
